@@ -1,0 +1,263 @@
+body {
+  background: #fff url('../images/world_map.png') no-repeat 100% 90%;
+  background-attachment:fixed;
+  font-size: 14px;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: bold;
+  color: #0084c8;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  margin-left: 10px;
+}
+
+hr {
+  width: 60%;
+  float: left;
+  display: block;
+}
+
+.navbar {
+  height: 67px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.85;
+  border-bottom: 1px solid #0084c8;
+}
+
+.navbar-brand {
+  background: #fff url('../images/qgis_logo.png') no-repeat 20px 2px;
+  height: 67px;
+  width: 100px;
+}
+
+.navbar-collapse {
+  background-color: transparent;
+  box-shadow: 0 0 6px rgba(6, 8, 8, 0.6);
+}
+
+.navbar-default .navbar-brand {
+  background-color: transparent !important;
+}
+
+ul.nav.navbar-nav {
+  margin-left: 0px;
+  height: 67px;
+  background-color: transparent;
+  width: 89%;
+}
+
+ul.nav.navbar-nav > li {
+  height: 67px;
+  text-transform: uppercase;
+}
+
+ul.nav.navbar-nav > li.navbar-dropdown {
+  float: right;
+}
+
+ul.nav.navbar-nav > li > a {
+  line-height: 34px;
+}
+
+select#other_groups {
+  float: right;
+  margin: 18px 1px 0 4px;
+  width: 168px;
+  background: #aaa url('../images/down-arrow.png') no-repeat 95% 50%;
+  line-height: 20px;
+  color: white;
+  outline: none;
+  display: inline-block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  padding: 3px 3px 3px 5px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.select-dropdown {
+  line-height: 40px;
+  float:right;
+  width: 100%;
+}
+
+.page-title {
+  color: #0084c8;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 4.4em;
+  letter-spacing: 1px;
+  padding-left: 25px;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.82);
+  line-height: 1.5em;
+}
+
+ul.page-nav {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: inline-block;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+ul.page-nav li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.byline {
+  margin-top: 120px;
+  color: #000;
+  line-height: 1.5em;
+  font-size: 1.6em !important;
+}
+
+.osgeo-line {
+  font-size: 0.75em;
+  vertical-align: bottom;
+  font-weight: 300;
+}
+
+.featurette {
+  clear: both;
+  width: 70%;
+}
+
+.lead {
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.schedule {
+  margin-left: 30px;
+}
+
+.featurette-divider {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.featurette-heading {
+  line-height: 1.5em;
+  font-size: 3em;
+}
+
+footer {
+  background: #fff;
+  opacity: 0.7;
+  border-top: 1px solid #0084c8;
+  color: #000;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 6px rgba(6, 8, 8, 0.6);
+}
+.footer .container {
+  width: 100%;
+}
+.footer .credit {
+  border: 0;
+}
+.footer #social {
+  list-style: none;
+  display: inline-block;
+}
+.footer #social > li {
+  display: inline-block;
+}
+.footer #social > li > a > div {
+  margin-right: 20px;
+  margin-left: 20px;
+  height: 36px;
+  width: 30px;
+  outline: none;
+}
+.footer #telegram {
+  background: transparent url("../images/footer-telegram.png") no-repeat 0 0;
+}
+.footer #github {
+  background: transparent url("../images/footer-github.png") no-repeat 0 0;
+}
+.footer #contact {
+  background: transparent url("../images/footer-contact.png") no-repeat 0 0;
+}
+.footer #telegram, #github, #contact {
+  opacity: 0.4;
+}
+.footer #telegram:hover, #github:hover, #contact:hover {
+  opacity: 1.0;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 833px) {
+  ul.nav.navbar-nav {
+    width: auto;
+  }
+  select#other_groups {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-attachment: scroll;
+  }
+  .navbar {
+    background-color: transparent;
+    border-bottom: none;
+    opacity: 1.0;
+    z-index: 100;
+  }
+  .navbar-collapse {
+    background: #fff;
+    border: #fff 1px solid;
+  }
+  .navbar-brand {
+    background-color: transparent;
+  }
+  .navbar-header > button.navbar-toggle {
+    background-color: #aaa ;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    opacity: 1.0;
+  }
+  .page-title {
+    font-size: 4em;
+  }
+  .container {
+    margin-left: auto;
+  }
+  ul.page-nav {
+    margin-left: 15px;
+    padding-left: 0;
+  }
+  ul.page-nav li {
+    margin-right: 12px;
+  }
+  ul.nav.navbar-nav > li.navbar-dropdown {
+    float: left;
+  }
+  .featurette {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  body {
+    background: #fff url('../images/world_map.png') no-repeat 100% 0 !important;
+  }
+}

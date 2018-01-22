@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>QGIS ES User Group</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/png" href="images/qgis_logo.png"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:900,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script>
+      $(function(){
+        $('#other_groups').bind('change', function () {
+            var url = $(this).val();
+            if (url) {
+              window.open(url,'_blank');
+            }
+            return false;
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://qgis.org" target="_blank"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="http://qgis.org/es/site/about/index.html" target="_blank">Descubra QGIS</a></li>
+            <li><a href="http://qgis.org/es/site/forusers/index.html" target="_blank">Para los usuarios</a></li>
+            <li><a href="http://qgis.org/es/site/getinvolved/index.html" target="_blank">Involucrarse</a></li>
+            <li><a href="http://qgis.org/es/docs/index.html" target="_blank">Documentación</a></li>
+            <li class="navbar-dropdown">
+              <div class="select-dropdown">
+              <select id="other_groups">
+                <option value="" title="none">Otros grupos</option>
+                <optgroup label="America">
+                  <option title="USA" value="http://qgis.us/">U.S.A.</option>
+                </optgroup>
+                <optgroup label="Europe">
+          <option title="Holland" value="http://www.qgis.nl/">Holanda</option>
+		  <option title="IE" value="https://ieqgis.wordpress.com/category/qgis/">Irlanda</option>
+		  <option title="Italy" value="http://www.qgis.it/">Italia</option>
+		  <option title="Portugal" value="http://qgis.pt/">Portugal</option>
+		  <option title="Switzerland" value="http://qgis.ch">Suiza</option>
+		  <option title="UK" value="http://qgis.uk/">Reino Unido</option>
+		<optgroup label="Oceania">
+		  <option title="ANZ" value="https://sites.google.com/site/ausqgis/home">Australia &amp; NZ</option>
+                </optgroup>
+              </select>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- TITLE & PAGE NAV -->
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 page-title">Grupo de usuarios de QGIS España</div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-md-offset-3">
+            <ul class="page-nav">
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              <li>
+                <a href="#meetings">Reuniones</a>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+              <li>
+                <a href="http://qgis.org" target="_blank">QGIS.org</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 lead byline">Soporte para el grupo de usuarios Españoles de  <a href="http://qgis.org" target="_blank">QGIS</a>, un sistema de información geográfica de fuente abierta y gratuita.
+	       <p class="osgeo-line">QGIS es un proyecto de <a href="http://www.osgeo.org/" target="_blank"><img src="images/osgeo_logo.png"> </a></p>
+	    </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12"><br/><br/><br/><br/><br/><br/>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>Reuniones de usuarios</h3>
+              <p class="lead">Únete a la próxima reunión. <a class="link" href="#meetings">Detalles &raquo;</a>
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Discusiones en línea</h3>
+              <p class="lead"><a href="https://telegram.me/qgis_es" target="_blank">
+                Únete a nosotros en línea</a> sobre lo que estamos haciendo ahora y lo que sigue.
+              </p>
+            </div>
+            <div class="col-sm-4">
+              <h3>Aprenda QGIS</h3>
+              <p class="lead"><a href="http://qgis.org/es/site/" target="_blank">QGIS</a> es la herramienta de escritorio GIS de código abierto más popular del mundo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- START THE FEATURETTES -->
+        <div class="container">
+          <hr class="featurette-divider">
+          <a name="about"></a>
+          <div class="featurette">
+            <h2 class="featurette-heading">Objetivos del grupo:</h2>
+            <p class="lead">
+              <ul class="lead">
+                <li>Coordinación del desarrollo.</li>
+                <li>Información sobre QGIS: reuniones, artículos en revistas de GIS, información sobre QGIS en Telegram, paneles de discusión de SIG.</li>
+                <li>Inicialización de grupos de interés específicos SIG y módulos de aplicación (como aguas residuales, planificación urbana, topografía, etc.).</li>
+                <li>Organización de reuniones de usuarios.</li>
+                <li>Servir como punto de organización para las reuniones regionales.</li>
+                <li>Únete a nosotros y comparte tus ideas!</li>
+              </ul>
+            </p>
+          </div>
+
+          <hr class="featurette-divider">
+          <a name="meetings"></a>
+
+          <div class="featurette">
+            <h2 class="featurette-heading"><span class="muted">Ven y únete a nosotros.</span></h2>
+            <p class="lead">
+              Descripción sobre las próximas reuniones
+            </p>
+            <p>
+            <font size='+2'><b>Programa detallado de la reunión</b></font></p>
+            </p>
+            <p>
+              Únete a nosotros en otro evento cerca de ti ... u organiza tu la próxima reunión.
+              <iframe src="http://www.meetup.com/qgis_us/embeds/soonest_event_list?css=&amp;w=660&amp;bg=light" width="660" height="150" frameborder="0" border="0" allowtransparency="true" scrolling="no"></iframe>
+            </p>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="featurette">
+            <h2 class="featurette-heading">¿En general está interesado en el SIG de código abierto? ... ¿Todavía no es usuario de QGIS pero quiere unirse y ayudar?</h2>
+            <p class="lead">QGIS en sí mismo es desarrollado por un equipo de voluntarios y organizaciones dedicadas. Puede participar en canales de soporte, informar errores, mejorar la documentación, crear tutoriales, promover el uso de QGIS y ayudar a los desarrolladores a mejorar esta herramienta comunitaria.</p>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="featurette">
+            <h2 class="featurette-heading">Discutimos cosas en línea. <span class="muted">Únete y preséntate.</span></h2>
+            <p class="lead">
+                No puede llegar a una reunión?  No hay problema. Colaboramos en proyectos, solicitamos ayuda y realizamos publicaciones
+                en nuestra <a href="ESlocal mailing list">Lista de correo</a>.
+                Damos la bienvenida a todos los que se inscriban ... es posible que veas algo en lo que te interese ayudar.
+            </p>
+          </div>
+
+          <hr class="featurette-divider">
+          <a name="contact"></a>
+          <div class="featurette">
+            <h2 class="featurette-heading">¿Quieres más información? <span class="muted">Suscríbete.</span></h2>
+            <p class="lead">Puedes suscribirte a nuestra <a href="qgis-es@lists.osgeo.org">Lista de correo</a>
+             y actualizaciones en<a href="https://telegram.me/qgis_es" target="_blank">Telegram</a>
+              . Animate a participar!</p>
+          </div>
+
+          <hr class="featurette-divider">
+          <!-- /END THE FEATURETTES -->
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <ul id="social">
+          <li id="telegram"><a href="https://telegram.me/qgis_es" class="external" target="_blank"><div></div></a></li>
+          <li id="github"><a href="http://github.com/qgis/" class="external" target="_blank"><div></div></a></li>
+          <li id="contact"><a href="qgis-es@lists.osgeo.org" target="_blank"><div></div></a></li>
+        </ul>
+      </div>
+      <p class="footer credit">Salvo que se especifique lo contrario, los contenidos de esta web se encuentran bajo licencia
+          <a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="license"><img src="https://licensebuttons.net/l/by-sa/3.0/88x31.png" alt="Creative Commons Attribution-ShareAlike 3.0 licence (CC BY-SA)" style="border-width: 0;"></a>
+        </p>
+    </footer>
+
+  </body>
+</html>
