@@ -194,13 +194,16 @@ footer {
 .footer #github {
   background: transparent url("../images/footer-github.png") no-repeat 0 0;
 }
+.footer #twitter {
+  background: transparent url("../images/footer-twitter.png") no-repeat 0 0;
+}
 .footer #contact {
   background: transparent url("../images/footer-contact.png") no-repeat 0 0;
 }
-.footer #telegram, #github, #contact {
+.footer #telegram, #github, #twitter, #contact {
   opacity: 0.4;
 }
-.footer #telegram:hover, #github:hover, #contact:hover {
+.footer #telegram:hover, #github:hover, #twitter:hover, #contact:hover {
   opacity: 1.0;
 }
 
